@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-root-detection" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Root Detection</name>
+    <author>Yury Trykov (http://trykov.ru/)</author>
+    <description>Cordova Plugin for detecting if the device running the app is rooted.</description>
+    <keywords>cordova, detection, detector, root, rooted</keywords>
+    <license>MIT</license>
+    <repo>https://github.com/trykovyura/cordova-plugin-root-detection</repo>
+    <issue>https://github.com/trykovyura/cordova-plugin-root-detection/issues</issue>
+    <engines>
+        <engine name="cordova" version="&gt;=3.0.0"/>
+    </engines>
+    <js-module name="RootDetection" src="www/rootdetection.js">
+        <clobbers target="rootdetection"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="RootDetection">
+                <param name="android-package" value="ru.trykov.root.RootDetection"/>
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/RootDetection.java" target-dir="src/ru/trykov/root"/>
+    </platform>
+</plugin>
