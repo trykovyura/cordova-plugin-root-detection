@@ -29,4 +29,4 @@ Android only.
 
 ## License
 
-[MIT License](http://ilee.mit-license.org)
+MIT License
