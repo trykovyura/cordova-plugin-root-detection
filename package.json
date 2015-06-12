@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-root-detection",
+  "version": "0.1.0",
+  "description": "Cordova Plugin for detecting if the device running the app is rooted.",
+  "cordova": {
+    "id": "cordova-plugin-root-detection",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trykovyura/cordova-plugin-root-detection.git"
+  },
+  "keywords": [
+    "cordova",
+    "detection",
+    "detector",
+    "root",
+    "rooted",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Yury Trykov (http://trykov.ru/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trykovyura/cordova-plugin-root-detection/issues"
+  },
+  "homepage": "https://github.com/trykovyura/cordova-plugin-root-detection#readme"
+}

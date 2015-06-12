@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="ru.trykov.rootdetection" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin id="cordova-plugin-root-detection" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Root Detection</name>
     <author>Yury Trykov (http://trykov.ru/)</author>
