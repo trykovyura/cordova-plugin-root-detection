@@ -16,12 +16,23 @@ cordova plugin add https://github.com/trykovyura/cordova-plugin-root-detection.g
 ### isDeviceRooted
 
 ```js
-rootdetection.isDeviceRooted(successCallback, failureCallback);
+rootdetection.isDeviceRooted(successCallback, errorCallback);
 ```
 
 - => `successCallback` is called with true if the device is rooted, otherwise false
-- => `failureCallback` is called if there was an error determining if the device is rooted
+- => `errorCallback` is called if there was an error determining if the device is rooted
 - returns '1' if device is rooted else '0'
+
+### Example
+```js
+var successCallback = function (result) {
+    var isDevicesRooted = result == 1;
+};
+var errorCallback = function (error) {
+    console.error(error);
+};
+rootdetection.isDeviceRooted(successCallback, errorCallback);
+```
 
 ## Platform Support
 
