@@ -8,6 +8,12 @@ Use this plugin to check if the android device running the app is rooted.
 ### Locally
 
 ```
+cordova plugin add cordova-plugin-root-detection
+```
+
+or
+
+```
 cordova plugin add https://github.com/trykovyura/cordova-plugin-root-detection.git
 ```
 
